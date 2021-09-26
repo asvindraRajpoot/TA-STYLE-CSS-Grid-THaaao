@@ -10,13 +10,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header-nav-bar flex flex-space-between">
+        <div class="container header-nav-bar flex flex-space-between sm-flex">
 
-    
+       <div class="top ">
         <a class="brand" href="index.html">Stimulus</a>
-        <nav>
+        <label for="toggle" class="bars">
+            <i class="fas fa-bars"></i>
+
+        </label>
+       </div>
+      
+    
+       
+        <nav class="nav-bar">
+            
+            <input type="checkbox"  id="toggle">
             <ul class="flex space-between nav-list">
-            <li><a href="#">Home</a></li>
+            <li><a class="active" href="#">Home</a></li>
             <li><a href="#">About me</a></li>
             <li><a href="#">Experience</a></li>
             <li><a href="#">Testimonial</a></li>
